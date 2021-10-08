@@ -1,0 +1,10 @@
+@use '../config';
+.app{
+  width: 100%;
+  min-height: 100vh;
+  padding: 5rem 10rem;
+
+  background-color: config.$color-bg-900;
+}
+
+
