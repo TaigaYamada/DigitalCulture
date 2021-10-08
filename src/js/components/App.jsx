@@ -9,6 +9,8 @@ import React, { useEffect } from 'react';
 // ==== Defining the default app ===== //
 const App = (props) => {
   // Assigning props to variables
+  console.log("Hello");
+  
   const {
   } = props;
 
