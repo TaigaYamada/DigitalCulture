@@ -6,10 +6,7 @@ const path = require('path');
 // ===== End of imports ===== //
 
 module.exports = {
-  entry : {
-    js : './src/js/index.jsx',
-    sass : './src/sass/index.js'
-  },
+  entry   : './src/js/index.jsx',
   plugins : [
     new MiniCssExtractPlugin(),
     new HtmlWebpackPlugin(
