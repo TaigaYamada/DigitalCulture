@@ -1,0 +1,40 @@
+@use '../config';
+$triangle-size : 1.5rem;
+$bubble-radius : 1rem;
+
+.bubble{
+  position: relative;
+
+  min-width: 8rem;
+  min-height: 8rem;
+  padding: 2rem 4rem;
+  border-radius: $bubble-radius;
+
+  background-color: config.$color-bubble;
+
+  &::after {
+    position: absolute;
+    top: $bubble-radius;
+    border: $triangle-size solid transparent;
+    border-top: 0;
+    content: '';
+  }
+
+  &--right{
+    &::after {
+      right: 0;
+      border-right: 0;
+      border-left-color: config.$color-bubble;
+      margin-right: -$triangle-size + .1rem;
+    }
+  }
+
+  &--left{
+    &::after {
+      left: 0;
+      border-right-color: config.$color-bubble;
+      border-left: 0;
+      margin-left: -$triangle-size + .1rem;
+    }
+  }
+}

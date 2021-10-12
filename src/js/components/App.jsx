@@ -1,6 +1,6 @@
 // React imports
 import React, { useEffect } from 'react';
-
+import Bubble from './Bubble';
 // Component imports
 
 
@@ -10,14 +10,15 @@ import React, { useEffect } from 'react';
 const App = (props) => {
   // Assigning props to variables
   console.log("Hello");
-  
+
   const {
   } = props;
 
   return (
     <>
       <div className='app'>
-
+        <Bubble left={true} ></Bubble>
+        <Bubble></Bubble>
       </div>
     </>
   );
