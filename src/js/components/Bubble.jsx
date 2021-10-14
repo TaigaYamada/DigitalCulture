@@ -10,19 +10,19 @@ import React from 'react';
 // <Bubble left={true} ></Bubble>
 // <Bubble></Bubble>
 
-// ==== Defining the default app ===== //
 const Bubble = (props) => {
   // Assigning props to variables
   console.log("Hello");
 
   const {
-    left
+    left,
+    children
   } = props;
 
   return (
     <>
       <div className={'bubble' + (left ? ' bubble--left' : ' bubble--right')} >
-
+        <p>{children}</p>
       </div>
     </>
   );

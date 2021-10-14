@@ -17,8 +17,11 @@ const App = (props) => {
   return (
     <>
       <div className='app'>
-        <Bubble left={true} ></Bubble>
-        <Bubble></Bubble>
+        <div className='container'>
+          <Bubble left={true}></Bubble>
+          <Bubble></Bubble>
+        </div>
+
       </div>
     </>
   );

@@ -1,16 +1,22 @@
 @use '../config';
 $triangle-size : 1.5rem;
-$bubble-radius : 1rem;
+$bubble-radius : 2rem;
 
 .bubble{
+  display: inline-block;
   position: relative;
+  max-width: 80%;
+  min-height: 6rem;
 
-  min-width: 8rem;
-  min-height: 8rem;
-  padding: 2rem 4rem;
+  padding: 1.5rem 3rem;
   border-radius: $bubble-radius;
+  margin: 2rem 0;
 
-  background-color: config.$color-bubble;
+  flex-grow: 0;
+
+
+
+  font-size: 2rem;
 
   &::after {
     position: absolute;
@@ -21,18 +27,28 @@ $bubble-radius : 1rem;
   }
 
   &--right{
+    margin-right: calc(3.5vw + 1rem);
+    align-self: flex-end;
+
+    background-color: config.$color-bubble1;
+
+    text-align: right;
     &::after {
       right: 0;
       border-right: 0;
-      border-left-color: config.$color-bubble;
+      border-left-color: config.$color-bubble1;
       margin-right: -$triangle-size + .1rem;
     }
   }
 
   &--left{
+    margin-left: calc(3.5vw + 1rem);
+    align-self: flex-start;
+
+    background-color: config.$color-bubble2;
     &::after {
       left: 0;
-      border-right-color: config.$color-bubble;
+      border-right-color: config.$color-bubble2;
       border-left: 0;
       margin-left: -$triangle-size + .1rem;
     }
