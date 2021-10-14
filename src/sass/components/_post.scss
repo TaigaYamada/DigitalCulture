@@ -1,0 +1,10 @@
+@use '../config';
+
+.post{
+  width: 100%;
+  min-height: 8rem;
+  border-radius: 2rem;
+  margin: 2rem 0;
+
+  background-color: config.$color-post;
+}

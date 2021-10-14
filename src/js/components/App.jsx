@@ -1,6 +1,7 @@
 // React imports
 import React, { useEffect } from 'react';
 import Bubble from './Bubble';
+import Post from './Post';
 // Component imports
 
 
@@ -20,6 +21,7 @@ const App = (props) => {
         <div className='container'>
           <Bubble left={true}></Bubble>
           <Bubble></Bubble>
+          <Post></Post>
         </div>
 
       </div>
