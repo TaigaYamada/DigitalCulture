@@ -20,6 +20,8 @@ const App = (props) => {
       <div className='app'>
         <div className='container'>
           <Bubble left={true}></Bubble>
+          <Bubble left={true}></Bubble>
+          <Bubble left={true}>Hello!</Bubble>
           <Bubble></Bubble>
           <Post></Post>
         </div>
