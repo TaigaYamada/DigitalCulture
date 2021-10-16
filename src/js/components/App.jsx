@@ -10,8 +10,6 @@ import Post from './Post';
 // ==== Defining the default app ===== //
 const App = (props) => {
   // Assigning props to variables
-  console.log("Hello");
-
   const {
   } = props;
 
@@ -19,10 +17,8 @@ const App = (props) => {
     <>
       <div className='app'>
         <div className='container'>
-          <Bubble>Helllllo!</Bubble>
           <Bubble>Hello!</Bubble>
           <Bubble left={true}>Hello!</Bubble>
-          <Bubble></Bubble>
           <Post></Post>
         </div>
 

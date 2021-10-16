@@ -12,8 +12,6 @@ import React from 'react';
 
 const Bubble = (props) => {
   // Assigning props to variables
-  console.log("Hello");
-
   const {
     left,
     children

@@ -8,8 +8,6 @@ import React from 'react';
 
 const Post = (props) => {
   // Assigning props to variables
-  console.log("Hello");
-
   const {
     left,
     children
