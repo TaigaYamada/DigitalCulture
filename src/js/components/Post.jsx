@@ -3,7 +3,6 @@ import React from 'react';
 
 // Component imports
 
-
 // ===== End of imports ===== //
 
 const Post = (props) => {
@@ -15,9 +14,9 @@ const Post = (props) => {
   } = props;
 
   return (
-    <div className={'post'} >
+    <div className='post'>
       <h3>{title}</h3>
-      <div style={{backgroundImage: 'url(' + src + ')'}}/>
+      <div style={{ backgroundImage : `url(${src})` }} />
       {(desc === '' ? '' : <p>{desc}</p>)}
     </div>
   );

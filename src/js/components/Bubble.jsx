@@ -3,7 +3,6 @@ import React from 'react';
 
 // Component imports
 
-
 // ===== End of imports ===== //
 
 // How to use this Component
@@ -18,9 +17,11 @@ const Bubble = (props) => {
   } = props;
 
   return (
-    <div className={
-      'bubble' + (left ? ' bubble--left' : ' bubble--right')
-    } >
+    <div
+      className={
+        `bubble${left ? ' bubble--left' : ' bubble--right'}`
+      }
+    >
       <p>{children}</p>
     </div>
   );
