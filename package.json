@@ -43,8 +43,9 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
+    "normalize.css": "^8.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "normalize.css": "^8.0.1"
+    "simplebar-react": "^2.3.6"
   }
 }
