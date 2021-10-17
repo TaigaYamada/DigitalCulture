@@ -1,5 +1,6 @@
 // React imports
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 
 // Component imports
 
@@ -17,13 +18,20 @@ const Bubble = (props) => {
   } = props;
 
   return (
-    <div
-      className={
-        `bubble${left ? ' bubble--left' : ' bubble--right'}`
-      }
+    <Fade
+      left={left}
+      right={!left}
+      duration={500}
+      distance='1rem'
     >
-      <p>{children}</p>
-    </div>
+      <div
+        className={
+          `bubble${left ? ' bubble--left' : ' bubble--right'}`
+        }
+      >
+        <p>{children}</p>
+      </div>
+    </Fade>
   );
 };
 
