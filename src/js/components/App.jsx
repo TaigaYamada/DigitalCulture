@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import SimpleBar from 'simplebar-react';
 import Bubble from './Bubble';
 import Post from './Post';
+import Heading from './Heading';
 
 // Component imports
 import 'simplebar/dist/simplebar.min.css';
@@ -14,6 +15,7 @@ const App = () => (
   <div className='app'>
     <div className='container'>
       <SimpleBar className='container__scroll'>
+        <Heading>Lorem ipsum dolor sit amet</Heading>
         <Bubble>
           Lorem ipsum dolor sit amet
         </Bubble>
@@ -41,6 +43,8 @@ const App = () => (
         <Bubble>
           Consectetur adipiscing elit
         </Bubble>
+
+        <Heading>Lorem ipsum dolor sit amet</Heading>
         <Bubble left>
           Nullam ante lorem, elementum eget convallis sit amet, luctus quis quam. Donec et massa dui. Integer euismod nunc nec lorem eleifend, sed dictum odio rhoncus
         </Bubble>
