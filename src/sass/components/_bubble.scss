@@ -10,12 +10,12 @@ $bubble-radius : 2rem;
 
   padding: 1.5rem 3rem;
   border-radius: $bubble-radius;
-  margin: 2rem 0;
+  margin: 2rem 3rem;
 
   flex-grow: 0;
 
-
-  font-size: 2rem;
+  font-size: 1.8rem;
+  box-shadow: config.$shadow-low;
 
   &::after {
     position: absolute;
@@ -26,7 +26,7 @@ $bubble-radius : 2rem;
   }
 
   &--right{
-    margin-right: calc(3.5vw + 1rem);
+    border: .2rem solid config.$color-bubble1-border;
     align-self: flex-end;
 
     background-color: config.$color-bubble1;
@@ -41,10 +41,12 @@ $bubble-radius : 2rem;
   }
 
   &--left{
-    margin-left: calc(3.5vw + 1rem);
+    border: .2rem solid config.$color-bg-600;
     align-self: flex-start;
 
     background-color: config.$color-bubble2;
+
+    color: config.$color-true-white;
     &::after {
       left: 0;
       border-right-color: config.$color-bubble2;

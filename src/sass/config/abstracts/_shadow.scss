@@ -1,2 +1,8 @@
 @use './color';
-$low : 0 .5rem .9rem rgba(color.$true-black, .1), 0 .5rem 7rem rgba(color.$true-black, .1);
+$low : 1rem 1rem 1rem rgba(color.$true-black, .15),
+  2rem 2rem 4rem rgba(color.$true-black, .4);
+
+$base : 1rem 1rem 1rem rgba(color.$true-black, .05),
+  2rem 2rem 2rem rgba(color.$true-black, .1),
+  3rem 3rem 5rem rgba(color.$true-black, .4);
+
