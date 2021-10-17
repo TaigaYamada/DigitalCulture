@@ -9,16 +9,17 @@ import React from 'react';
 const Post = (props) => {
   // Assigning props to variables
   const {
-    left,
-    children
+    title,
+    src,
+    desc
   } = props;
 
   return (
-    <>
-      <div className={'post'} >
-        {children}
-      </div>
-    </>
+    <div className={'post'} >
+      <h3>{title}</h3>
+      <div style={{backgroundImage: 'url(' + src + ')'}}/>
+      {(desc === '' ? '' : <p>{desc}</p>)}
+    </div>
   );
 };
 

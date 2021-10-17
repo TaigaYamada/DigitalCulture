@@ -18,11 +18,11 @@ const Bubble = (props) => {
   } = props;
 
   return (
-    <>
-      <div className={'bubble' + (left ? ' bubble--left' : ' bubble--right')} >
-        <p>{children}</p>
-      </div>
-    </>
+    <div className={
+      'bubble' + (left ? ' bubble--left' : ' bubble--right')
+    } >
+      <p>{children}</p>
+    </div>
   );
 };
 
