@@ -1,0 +1,15 @@
+@use '../config';
+
+h2{
+  width: 100%;
+  padding: 2rem 3rem;
+
+  &:not(:first-of-type){
+    margin-top: 7rem;
+  }
+
+  background-color: config.$color-bg-850;
+
+  color: config.$color-true-white;
+  font-size: 4.2rem;
+}

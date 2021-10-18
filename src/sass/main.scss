@@ -1,0 +1,11 @@
+// This file imports all files inside of components sub-folder
+// Maybe this should be automated in the future
+
+@use 'components/base';
+
+// My own components
+@use 'components/app';
+@use 'components/container';
+@use 'components/bubble';
+@use 'components/post';
+@use 'components/heading';

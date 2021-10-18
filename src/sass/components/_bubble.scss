@@ -1,0 +1,57 @@
+@use '../config';
+$triangle-size : 1.5rem;
+$bubble-radius : 2rem;
+
+.bubble{
+  display: inline-block;
+  position: relative;
+  max-width: 80%;
+  min-height: 6rem;
+
+  padding: 1.5rem 3rem;
+  border-radius: $bubble-radius;
+  margin: 2rem 3rem;
+
+  flex-grow: 0;
+
+  font-size: 1.8rem;
+  box-shadow: config.$shadow-low;
+
+  &::after {
+    position: absolute;
+    top: $bubble-radius;
+    border: $triangle-size solid transparent;
+    border-top: 0;
+    content: '';
+  }
+
+  &--right{
+    border: .2rem solid config.$color-bubble1-border;
+    align-self: flex-end;
+
+    background-color: config.$color-bubble1;
+
+    text-align: right;
+    &::after {
+      right: 0;
+      border-right: 0;
+      border-left-color: config.$color-bubble1;
+      margin-right: -$triangle-size + .1rem;
+    }
+  }
+
+  &--left{
+    border: .2rem solid config.$color-bg-600;
+    align-self: flex-start;
+
+    background-color: config.$color-bubble2;
+
+    color: config.$color-true-white;
+    &::after {
+      left: 0;
+      border-right-color: config.$color-bubble2;
+      border-left: 0;
+      margin-left: -$triangle-size + .1rem;
+    }
+  }
+}
