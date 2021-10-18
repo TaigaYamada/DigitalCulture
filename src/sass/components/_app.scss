@@ -40,9 +40,18 @@
       font-size: 5rem;
     }
 
+    & h2{
+      padding: 2rem calc(50% + 3.5vw + 24.5rem) 0 2rem;
+      margin: 0;
+
+      color: config.$color-bg-400;
+      font-size: 2.4rem;
+      text-align: right;
+    }
+
     & #toc{
       width: 100%;
-      padding: 1.9rem calc(50% + 3.5vw + 24.5rem) 1.9rem 2rem;
+      padding: 1rem calc(50% + 3.5vw + 24.5rem) 1rem 2rem;
 
       list-style: none;
       text-align: right;
@@ -53,10 +62,17 @@
 
         background-color: transparent;
 
-        color: config.$color-bg-100;
+        color: config.$color-bg-400;
         font-size: 1.8rem;
         font-weight: bold;
         text-align: right;
+        text-decoration: underline;
+
+        transition: all .2s;
+
+        &:hover{
+          color: config.$color-green;
+        }
 
       }
     }

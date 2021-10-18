@@ -49,6 +49,7 @@ const App = () => {
         <aside>
           <h1>{title}</h1>
           <div>
+            <h2>Table of Contents</h2>
             <ul id='toc'>
               <li>
                 <button
