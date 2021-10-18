@@ -55,7 +55,7 @@ const App = () => {
                   type='button'
                   onClick={scrollToSection}
                 >
-                  Heading 1
+                  Lorem ipsum dolor sit amet
                 </button>
               </li>
               <li>
@@ -63,7 +63,7 @@ const App = () => {
                   type='button'
                   onClick={scrollToSection}
                 >
-                  Heading 2
+                  Nullam ante lorem, elementum eget convallis sit amet
                 </button>
               </li>
             </ul>
@@ -103,9 +103,9 @@ const App = () => {
             Consectetur adipiscing elit
           </Bubble>
 
-          <Heading id='1'>Lorem ipsum dolor sit amet</Heading>
+          <Heading id='1'>Nullam ante lorem, elementum eget convallis sit amet</Heading>
           <Bubble left>
-            Nullam ante lorem, elementum eget convallis sit amet, luctus quis quam. Donec et massa dui. Integer euismod nunc nec lorem eleifend, sed dictum odio rhoncus
+            Luctus quis quam. Donec et massa dui. Integer euismod nunc nec lorem eleifend, sed dictum odio rhoncus
           </Bubble>
           <Bubble>
             Curabitur augue tellus, vehicula eu orci vitae, lacinia facilisis odio. Pellentesque efficitur mi at nisl blandit, sit amet pretium arcu fermentum
