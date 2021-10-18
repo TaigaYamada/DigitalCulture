@@ -15,11 +15,26 @@ const App = () => {
   const title = 'Digital Culture Group Project';
   const [isWide, setIsWide] = useState(window.innerWidth > 1015);
 
+  const scrollToSection = (e) => {
+    // accessing li, the parent of the button
+    const target = e.target.parentNode;
+
+    // Getting array of headings in toc to determine the index of the clicked one
+    const list = [...document.getElementById('toc').children];
+
+    // Getting the corresponding header in the container
+    const heading = document.getElementById(list.indexOf(target));
+
+    // Actual scrolling
+    heading.scrollIntoView({ behavior : 'smooth' });
+  };
+
   const checkSize = () => {
     setIsWide(window.innerWidth > 1015);
     console.log(isWide);
   };
 
+  // Re-checking the width to update the h1
   useEffect(() => {
     window.addEventListener('resize', checkSize);
 
@@ -30,12 +45,36 @@ const App = () => {
 
   return (
     <div className='app'>
-      {isWide ? <h1>{title}</h1> : ''}
+      {isWide ? (
+        <aside>
+          <h1>{title}</h1>
+          <div>
+            <ul id='toc'>
+              <li>
+                <button
+                  type='button'
+                  onClick={scrollToSection}
+                >
+                  Heading 1
+                </button>
+              </li>
+              <li>
+                <button
+                  type='button'
+                  onClick={scrollToSection}
+                >
+                  Heading 2
+                </button>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      ) : ''}
 
       <div className='container'>
         <SimpleBar className='container__scroll'>
           {!isWide ? <h1 className='in-phone'>{title}</h1> : ''}
-          <Heading>Lorem ipsum dolor sit amet</Heading>
+          <Heading id='0'>Lorem ipsum dolor sit amet</Heading>
           <Bubble>
             Lorem ipsum dolor sit amet
           </Bubble>
@@ -64,7 +103,7 @@ const App = () => {
             Consectetur adipiscing elit
           </Bubble>
 
-          <Heading>Lorem ipsum dolor sit amet</Heading>
+          <Heading id='1'>Lorem ipsum dolor sit amet</Heading>
           <Bubble left>
             Nullam ante lorem, elementum eget convallis sit amet, luctus quis quam. Donec et massa dui. Integer euismod nunc nec lorem eleifend, sed dictum odio rhoncus
           </Bubble>

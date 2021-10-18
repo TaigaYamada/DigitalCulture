@@ -9,6 +9,7 @@ import Fade from 'react-reveal/Fade';
 const Heading = (props) => {
   // Assigning props to variables
   const {
+    id,
     children
   } = props;
 
@@ -18,7 +19,7 @@ const Heading = (props) => {
       duration={500}
       distance='1rem'
     >
-      <h2>{children}</h2>
+      <h2 id={id}>{children}</h2>
     </Fade>
   );
 };
