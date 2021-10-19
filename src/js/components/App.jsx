@@ -56,7 +56,7 @@ const App = () => {
                   type='button'
                   onClick={scrollToSection}
                 >
-                  Lorem ipsum dolor sit amet
+                  Introduction
                 </button>
               </li>
               <li>
@@ -64,7 +64,47 @@ const App = () => {
                   type='button'
                   onClick={scrollToSection}
                 >
-                  Nullam ante lorem, elementum eget convallis sit amet
+                  Platform Choice
+                </button>
+              </li>
+              <li>
+                <button
+                  type='button'
+                  onClick={scrollToSection}
+                >
+                  Discussions Within the Platforms
+                </button>
+              </li>
+              <li>
+                <button
+                  type='button'
+                  onClick={scrollToSection}
+                >
+                  Literature Review
+                </button>
+              </li>
+              <li>
+                <button
+                  type='button'
+                  onClick={scrollToSection}
+                >
+                  Methodology
+                </button>
+              </li>
+              <li>
+                <button
+                  type='button'
+                  onClick={scrollToSection}
+                >
+                  Conclusion
+                </button>
+              </li>
+              <li>
+                <button
+                  type='button'
+                  onClick={scrollToSection}
+                >
+                  Bibliography
                 </button>
               </li>
             </ul>
@@ -75,22 +115,31 @@ const App = () => {
       <div className='container'>
         <SimpleBar className='container__scroll'>
           {!isWide ? <h1 className='in-phone'>{title}</h1> : ''}
-          <Heading id='0'>Lorem ipsum dolor sit amet</Heading>
-          <Bubble>
-            Lorem ipsum dolor sit amet
+          <Heading id='0'>Introduction</Heading>
+          <Bubble left>
+            On average, students at SciencesPo Le Havre campus answered that
+            {' '}
+            <b>[66%]</b>
+            {' '}
+            of all student communications happen on WhatsApp
           </Bubble>
           <Bubble>
-            Consectetur adipiscing elit
+            Increasingly, our communications have become digital, and the SciencesPo Le Havre campus is no exception
           </Bubble>
           <Bubble left>
-            Nullam ante lorem, elementum eget convallis sit amet, luctus quis quam. Donec et massa dui. Integer euismod nunc nec lorem eleifend, sed dictum odio rhoncus
+            But as the above signifies, “digital communication” does not just happen anywhere. It happens on platforms
           </Bubble>
           <Bubble>
-            Curabitur augue tellus, vehicula eu orci vitae, lacinia facilisis odio. Pellentesque efficitur mi at nisl blandit, sit amet pretium arcu fermentum
+            Then, why or how did the communication platforms get chosen?
           </Bubble>
-          <Bubble left>
-            Aliquam consectetur at mi sed blandit. Mauris malesuada non dolor non vestibulum
+          <Bubble>
+            What do these platforms do to the ways we communicate?
           </Bubble>
+          <Bubble>
+            These are the questions we set out to investigate
+          </Bubble>
+
+          <Heading id='1'>Platform Choice</Heading>
 
           <Post
             title='Title of image'
@@ -104,7 +153,6 @@ const App = () => {
             Consectetur adipiscing elit
           </Bubble>
 
-          <Heading id='1'>Nullam ante lorem, elementum eget convallis sit amet</Heading>
           <Bubble left>
             Luctus quis quam. Donec et massa dui. Integer euismod nunc nec lorem eleifend, sed dictum odio rhoncus
           </Bubble>
@@ -120,6 +168,12 @@ const App = () => {
             src=''
             desc='Small text to explain the image'
           />
+
+          <Heading id='2'>Discussions Within the Platforms</Heading>
+          <Heading id='3'>Literature Review</Heading>
+          <Heading id='4'>Methodology</Heading>
+          <Heading id='5'>Conclusion</Heading>
+          <Heading id='6'>Bibliography</Heading>
 
           {!isWide
             ? (
