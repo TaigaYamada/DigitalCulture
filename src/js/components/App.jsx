@@ -165,6 +165,9 @@ const App = () => {
           <Bubble left>
             Bis repetita placent
           </Bubble>
+          <Bubble left>
+            Bis repetita placent2
+          </Bubble>
           <Post
             title='Title of image'
             src=''
