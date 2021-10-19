@@ -162,7 +162,9 @@ const App = () => {
           <Bubble left>
             Aliquam consectetur at mi sed blandit. Mauris malesuada non dolor non vestibulum
           </Bubble>
-
+          <Bubble left>
+            Bis repetita placent
+          </Bubble>
           <Post
             title='Title of image'
             src=''
