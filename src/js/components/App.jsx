@@ -123,6 +123,12 @@ const App = () => {
             {' '}
             of all student communications happen on WhatsApp
           </Bubble>
+          <Post
+            title='Student communication in WhatsApp'
+            src=''
+            desc='66% of students at the Sciences Po Le Havre campus answered that all of their student communication happens in WhatsApp (weighted average)'
+          />
+
           <Bubble>
             Increasingly, our communications have become digital, and the SciencesPo Le Havre campus is no exception
           </Bubble>
@@ -140,12 +146,58 @@ const App = () => {
           </Bubble>
 
           <Heading id='1'>Platform Choice</Heading>
-
-          <Post
-            title='Title of image'
-            src=''
-            desc='Small text to explain the image'
-          />
+          <Bubble>
+            Insert Cléa Part
+          </Bubble>
+          <Bubble>
+          As previously underlined, the student community of ScPo seems to be mostly using WhatsApp to communicate b/w themselves
+          </Bubble>
+          <Bubble left>
+            But why is that the case?
+          </Bubble> 
+          <Bubble>
+          After discussing with seniors, we discovered that the Sciences Po Le Havre class of 2023 was the first cohort ever to have a WhatsApp group chat as the main communication platform. 
+          </Bubble>
+          <Bubble left>
+          Why was there such a shift in platforms? 
+          </Bubble>
+          <Bubble>
+          We asked this question to @user0186, a student with deep knowledge about the creation of the first Sciences Po Le Havre WhatsApp group chat!
+          </Bubble>
+          <Bubble left>
+          There exists a Facebook group called “The Great Indian Dream” which was created to help Indian students to prepare their admission to foreign universities. 
+          </Bubble>
+          <Bubble left>
+          In March 2019, one student told the group that he got into Sciences Po, and other students, who also got in, responded to the post and they started chatting
+          </Bubble>
+          <Bubble left>
+          To make chatting easier, they created an inter campus group chat on Discord and shared the link on the Great Indian Dream Facebook group chat and on the Sciences Po & India Facebook group chat.
+          </Bubble>
+          <Bubble>
+          However, Discord turned out to be very counterintuitive for new users. So students had to switch to WhatsApp, which was way easier to use.
+          </Bubble>
+          <Bubble left>
+          But, the WhatsApp group chat soon reached its maximum number of members. So, the administrators suggested that they create separate WhatsApp chats for each campus. And this is how the WhatsApp group chats for all campuses were created. 
+          </Bubble>
+          <Bubble left>
+          The number of members increased drastically when the results of the French admission procedure were released. The link to the group chat was shared on other social networks notably on Instagram. 
+          </Bubble>
+          <Bubble>
+          Why did students give up on Messenger and choose WhatsApp instead?
+          </Bubble>
+          <Bubble left>
+          According to @user0186, this is not linked to the cultural tendency of Indian students to use WhatsApp as their preferred communication platform
+          </Bubble>
+          <Bubble left>
+          This shift in platforms is to be understood as a <b>generational move</b>. Nobody is really willing to use Messenger anymore because it has now become too old. 
+          </Bubble>
+          <Bubble>
+          Even the BDE of every campus chose to follow the move and created the 2021 entrants WhatsApp chat, definitely giving up on Messenger. 
+          </Bubble>
+          <Bubble>
+          The active role that the BDE played really shows how dramatic the consequences of the pandemic were on students’ perception of social interactions. They wanted to ensure the building of a strong digital student community in order to guarantee campus life both in person and online. 
+          </Bubble>
+      
           <Bubble>
             Lorem ipsum dolor sit amet
           </Bubble>
@@ -169,6 +221,39 @@ const App = () => {
           />
 
           <Heading id='2'>Discussions Within the Platforms</Heading>
+          <Bubble>
+            Zhuofan part
+          </Bubble>
+          <Bubble>
+            We asked @darkshadow62617, a Japanese student of Sciences Po Le Havre, how he felt about the use of WhatsApp by the student community
+          </Bubble>
+          <Bubble left>
+          “I didn’t know at all that everyone was using WhatsApp. And then in one class, I realized that (...) we are using WhatsApp so it is possible for students to create groups in five or six days so...I just needed to install it whether I wanted or not.”
+          </Bubble>
+          <Bubble>
+          @darkshadow62617’s testimony confirms our survey’s data, in which 61% of respondents said that there had already been vital academic activities that were mainly being managed on WhatsApp. Therefore, in order to do group work, as mentioned by the interviewee, students must use WhatsApp
+          </Bubble>
+          <Post
+            title='Most respondents think that there has been vital academic activities that were mainly managed on WhatsApp'
+            src=''
+            desc='61% of respondents think that there has been vital academic activities that were mainly managed on WhatsApp'
+          />
+          <Bubble>
+          Therefore, students are coerced into using WhatsApp
+          </Bubble>
+          <Bubble left>
+            @darkshadow62617 also added
+          </Bubble>
+          <Bubble left>
+          “I think I’ll never send a message on the groupchat (...) There is a tendency of Japanese people where only a few people are active on group chats and most never talk.”
+          </Bubble>
+          <Bubble>
+            Here, the student highlights a particularly interesting phenomenon
+          </Bubble>
+          <Bubble>
+            According to @darkshadow62617, cultural differences might imply differences in ways of communicating. As such, the interviewee thinks that Japanese students might tend to be more shy than other students from other countries
+          </Bubble>
+
           <Heading id='3'>Literature Review</Heading>
           <Bubble>
           By drawing upon pre-existing literature, our investigation combined various concepts elaborated by academic researchers and provided for an original approach to digital student communities. The existing literature on the topic of discussion platforms can be divided into 3 main categories.
