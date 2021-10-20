@@ -228,15 +228,68 @@ const App = () => {
           </Bubble>
           <Heading id='5'>Conclusion</Heading>
           <Heading id='6'>Bibliography</Heading>
-
+           <Bubble>
+           Al-Mothana M. Gasaymeh. (2017) ‘University Students’ use of Whatsapp and their Perceptions Regarding its Possible Integration into their Education’. Global Journal of Computer Science and Technology: G Interdisciplinary, Volume 17 Issue 1 Version 1.0 Year 2017.  Global Journals Inc. (USA)
+            </Bubble>
+          <Bubble left>
+          Abbott, A. D., &amp; Alexander, J. C. (2004). Methods of discovery: Heuristics for the social sciences. W W Norton &amp; Company.
+          </Bubble>
+          <Bubble>
+          Bastard, I., Cardon, D., Charbey, R., Cointet, J. &amp; Prieur, C. (2017). Facebook, pour quoi faire : Configurations d’activités et structures relationnelles. Sociologie, 8, 57-82.
+          </Bubble>
+          <Bubble left>
+          Bhattacherjee, A. (2012). Social Science Research: Principles, Methods and Practices. Chapter 9: Survey Research.
+          </Bubble>
+          <Bubble>
+          Bidart, C. &amp; Kornig, C. (2017). Facebook pour quels liens : Les relations des quadragénaires sur Facebook. Sociologie, 8, 83-100. 
+          </Bubble>
+          <Bubble left>
+          Cardon, D. (2015). À quoi rêvent Les algorithmes: Nos vies à l'heure des big data.
+          </Bubble>
+          <Bubble>
+          Creswell, J. W., &amp; Creswell, J. D. (2018). Research design: Qualitative, quantitative, and mixed methods approaches. SAGE Publications. 294-324
+          </Bubble>
+          <Bubble left>
+          Creswell, J. W., &amp; Clark, V. L. (2011). Designing and conducting mixed methods research. SAGE. 58-89.
+          </Bubble>
+          <Bubble>
+          Dagiral, É. (2010). L'articulation des sociabilités et des savoirs en tension : les réseaux sociaux et l'université. Transversalités, 116, 31-44. 
+          </Bubble>
+          <Bubble left>
+          Dang Nguyen, G. &amp; Lethiais, V. (2016). Impact des réseaux sociaux sur la sociabilité: Le cas de Facebook. Réseaux, 195, 165-195. 
+          </Bubble>
+          <Bubble>
+          Gutierrez, Ronald S.; McDougald, Jermaine S.; Rozo, Hugo A. (2020) ‘Facebook as a communication tool: Use and perceptions amongst undergraduate students’. Revista Espacios Vol. 41 (Number 04) Year 2020. Page 15 . 15-29.
+          </Bubble>
+          <Bubble left>
+          Irfan, Mohammad; Dhimmar, Sonali. (2019) ‘Impact of WhatsApp Messenger on the University Level Students: A Psychological Study’. IJRAR February 2019, Volume 6, Issue 1. 572-586
+          </Bubble>
+          <Bubble>
+          Liu, Chen-Chung; Yang, Chen-Yu; Chao, Po-Yao (2019). A longitudinal analysis of student participation in a digital collaborative storytelling activity. Educational Technology Research and Development, doi:10.1007/s11423-019-09666-3 
+          </Bubble>
+          <Bubble left>
+          Melot Lionel, Strebelle Albert, Mahauden Jérôme, Depover Christian. Utilisation de Facebook en contexte universitaire. In: Sciences et Technologies de l'Information et de la Communication pour l'Éducation et la Formation, volume 24 n°1, 2017. Sélection de la conférence EIAH 2015. 107-122.
+          </Bubble>
+          <Bubble>
+          Raman, Arumugam; Sani, Ruuhina Mohd; Kaur, Paramjit (2014). Facebook as a Collaborative and Communication Tool: A Study of Secondary School Students in Malaysia. Procedia - Social and Behavioral Sciences, 155(), 141–146.
+          </Bubble>
+          <Bubble left>
+          Sheppard, Valerie. (2021). Research Methods for the Social Sciences: An Introduction Version. 
+          </Bubble>
+          <Bubble>
+          Simon Bheki. Khoza (2020) ‘Students’ Habits Appear Captured by WhatsApp’. International Journal of Higher Education Vol. 9, No. 6; 2020. 307-317.
+          </Bubble>
+          <Bubble left>
+          Wijaya, Armeria. (2017) ‘Students’ Responses Toward the Use of WhatsApp in Learning’. Journal of Teaching & Learning English in Multicultural Contexts Volume 2, Number 1. 46-56.
+          </Bubble>
           {!isWide
             ? (
               <div className='authors authors--in-phone'>
                 <p>By:</p>
-                <p>Firstname LASTNAME</p>
-                <p>Firstname LASTNAME</p>
-                <p>Firstname LASTNAME</p>
-                <p>Firstname LASTNAME</p>
+                <p>Cléa SCHMITT</p>
+                <p>Quitterie MAGNIN</p>
+                <p>Taiga YAMADA</p>
+                <p>Zhuofan ZU</p>
               </div>
             )
             : ''}
@@ -246,10 +299,10 @@ const App = () => {
           ? (
             <div className='authors'>
               <p>By:</p>
-              <p>Firstname LASTNAME</p>
-              <p>Firstname LASTNAME</p>
-              <p>Firstname LASTNAME</p>
-              <p>Firstname LASTNAME</p>
+              <p>Cléa SCHMITT</p>
+              <p>Quitterie MAGNIN</p>
+              <p>Taiga YAMADA</p>
+              <p>Zhuofan ZU</p>
             </div>
           )
           : ''}
