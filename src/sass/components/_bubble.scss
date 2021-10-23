@@ -1,20 +1,19 @@
 @use '../config';
 $triangle-size : 1.5rem;
-$bubble-radius : 2rem;
+$bubble-radius : 1.5rem;
 
 .bubble{
   display: inline-block;
   position: relative;
   max-width: 80%;
-  min-height: 6rem;
 
-  padding: 1.5rem 3rem;
+  padding: 1rem 2rem;
   border-radius: $bubble-radius;
-  margin: 2rem 3rem;
+  margin: 1.2rem 3rem;
 
   flex-grow: 0;
 
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   box-shadow: config.$shadow-low;
 
   &::after {
