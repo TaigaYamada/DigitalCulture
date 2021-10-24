@@ -141,7 +141,7 @@ const App = () => {
           </Bubble>
 
           <Heading id='1'>Methodology</Heading>
-          <Subheading id='0'>The website</Subheading>
+          <Subheading id='0'>The Website</Subheading>
           <Bubble>
             We decided to present our findings as an open source website. This choice was notably motivated by the fact that being open source embodies the original values on which the internet was built in the first place, namely:
           </Bubble>
@@ -352,6 +352,7 @@ const App = () => {
           </Bubble>
 
           <Heading id='4'>Discussions Within Platforms</Heading>
+          <Subheading id='0'>Topic Segregation</Subheading>
           <Bubble>
             Respondents on the survey displayed significant discretion in choosing what type of topic to discuss, depending on the topic.
           </Bubble>
@@ -379,6 +380,7 @@ const App = () => {
             src=''
             desc=''
           />
+          <Subheading id='0'>Why students separate the topics</Subheading>
           <Bubble>
             As noted earlier, one of the major reasons for differing preference depending on the topic discussed was the forum versus chat format.
           </Bubble>
