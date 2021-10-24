@@ -125,7 +125,11 @@ const App = () => {
       ) : ''}
 
       <div className='container'>
-        <SimpleBar className='container__scroll'>
+        <SimpleBar
+          className='container__scroll'
+          autoHide={false}
+          scrollbarMinSize={50}
+        >
           {!isWide ? <h1 className='in-phone'>{title}</h1> : ''}
           <Heading id='0'>Introduction</Heading>
           <Bubble left>
@@ -230,12 +234,12 @@ const App = () => {
           </Bubble>
 
           <Post
-            title='India is has the most Facebook users in the world'
+            title='India has the most Facebook users in the world'
             src={graph4_1}
             desc='Top 10 countries with the most Facebook users, in millions. Source:Topic: Facebook. (2021, February 5). Statista. https://www.statista.com/topics/751/facebook.'
           />
           <Post
-            title='India is has the most WhatsApp users in the world'
+            title='India has the most WhatsApp users in the world'
             src={graph4_2}
             desc='Top 10 countries with the most WhatsApp users, in millions. Source: Dean, B. (2021). SEO Training and Link Building Strategies – Backlinko. https://backlinko.com/whatsapp-users.'
           />
@@ -284,13 +288,13 @@ const App = () => {
             The origin of the shift traces back to a Facebook group called “The Great Indian Dream”, which was created to help Indian students prepare for their admission into foreign universities.
           </Bubble>
           <Bubble>
-            In March 2019, as the Indian applicants to Sciences Po started receiving their admission results, one student told the group that he got into Sciences Po, and other students, who also got in, responded to the post and started chatting. It is worth reminding that, as of March, BDE had not yet created the Messenger group chat for the new cohort, making ''The Great Indian Dream'' one of the few places future SciencesPo students were actually connected to each other.
+            In March 2019, as the Indian applicants to Sciences Po started receiving their admission results, one student told the group that he got into Sciences Po, and other students, who also got in, responded to the post and started chatting. It is worth reminding that, as of March, BDE had not yet created the Messenger group chat for the new cohort, making ''The Great Indian Dream'' one of the few places future Sciences Po students were actually connected to each other.
           </Bubble>
           <Bubble>
             Empowered by the connections on “The Great Indian Dream” group, the Indian students initiated the creation of a student community even before BDE itself could take this role.
           </Bubble>
           <Bubble>
-            To make the communication easier, the future students of SciencesPo created a group chat on Discord and shared the link on the Great Indian Dream Facebook group and on the “Sciences Po & India” Facebook group chat, which was created by the SciencesPo university itself in order to connect Indian students from Sciences Po. Note that at this point, the Discord group combined potential students from all campuses.
+            To make the communication easier, the future students of Sciences Po created a group chat on Discord and shared the link on the Great Indian Dream Facebook group and on the “Sciences Po & India” Facebook group chat, which was created by the Sciences Po university itself in order to connect Indian students from Sciences Po. Note that at this point, the Discord group combined potential students from all campuses.
           </Bubble>
           <Bubble left>
             However, Discord turned out to be very counterintuitive for new users. It had specific vocabulary and a focus on specific types of communities. So students switched to WhatsApp, which was way easier to use.
@@ -311,7 +315,7 @@ const App = () => {
             Although it was the Indian students that initiated this university-wide shift, @painauchocolatine believes that the primary reason for the change had nothing to do with their national adoption of WhatsApp.
           </Bubble>
           <Bubble>
-            Indeed, as previously underlined, while India is the country in which WhatsApp is the most popular in, the use of WhatsApp is more widespread globally. Moreover, WhatsApp was already the dominant platform amongst Sciences Po Le Havre students. As the data shows, nearly half of the respondents already had WhatsApp before entering SciencesPo, a value that is almost double that of Messenger.
+            Indeed, as previously underlined, while India is the country in which WhatsApp is the most popular, the use of WhatsApp is more widespread globally. Moreover, WhatsApp was already the dominant platform amongst Sciences Po Le Havre students. As the data shows, nearly half of the respondents already had WhatsApp before entering SciencesPo, a value that is almost double that of Messenger.
           </Bubble>
 
           <Post
@@ -425,7 +429,7 @@ const App = () => {
             <b>The second insight from the literature review was that connections through digital platforms assisted in students’ academic performance.</b>
           </Bubble>
           <Bubble>
-            However, since the use of WhatsApp has become so prevalent in SciencesPo, the situation has changed.
+            However, since the use of WhatsApp has become so prevalent in Sciences Po, the situation has changed.
           </Bubble>
           <Bubble>
             Here, having WhatsApp is the norm. On the other hand, not having WhatsApp hinders the students greatly, because they miss the “vital academic activity” that takes place there.
@@ -451,13 +455,13 @@ const App = () => {
             Our findings confirm and expand the literature in the field.
           </Bubble>
           <Bubble>
-            SciencesPo digital student community is remarkably concentrated on WhatsApp group chat and Facebook.
+            Sciences Po digital student community is remarkably concentrated on WhatsApp group chat and Facebook.
           </Bubble>
           <Bubble left>
             Investigation of this phenomena first revealed that the choice of WhatsApp as the discussion platform was something radically new for the student community.
           </Bubble>
           <Bubble left>
-            It also displayed the power of networks that uniquely positioned Indian students to initiate a change, which affected all campuses of SciencesPo.
+            It also displayed the power of networks that uniquely positioned Indian students to initiate a change, which affected all campuses of Sciences Po.
           </Bubble>
           <Bubble left>
             The creators of the WhatsApp group chat weren’t the only cause of the shift, however. They were supported by the wider trend of generational preference towards WhatsApp.
@@ -469,7 +473,7 @@ const App = () => {
             Certain topics were asked on certain platforms. Students became careful to match their behaviors to the format in place, informed by the social inertia.
           </Bubble>
           <Bubble>
-            Our investigation brought to light the mechanisms at work in the daily interactions of the students in SciencesPo Le Havre campus.
+            Our investigation brought to light the mechanisms at work in the daily, digital interactions of the students in Sciences Po Le Havre campus.
           </Bubble>
 
           <Heading id='6'>Bibliography</Heading>
