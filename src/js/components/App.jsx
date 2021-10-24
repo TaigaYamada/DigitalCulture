@@ -281,7 +281,7 @@ const App = () => {
             We asked this question to @painauchocolatine, a student with firsthand knowledge about the creation of the first Sciences Po Le Havre WhatsApp group chat.
           </Bubble>
           <Bubble>
-            The origin of the shift traces back to a Facebook group called “The Great Indian Dream”, which was created to help Indian students to prepare their admission to foreign universities.
+            The origin of the shift traces back to a Facebook group called “The Great Indian Dream”, which was created to help Indian students prepare for their admission into foreign universities.
           </Bubble>
           <Bubble>
             In March 2019, as the Indian applicants to Sciences Po started receiving their admission results, one student told the group that he got into Sciences Po, and other students, who also got in, responded to the post and started chatting. It is worth reminding that, as of March, BDE had not yet created the Messenger group chat for the new cohort, making ''The Great Indian Dream'' one of the few places future SciencesPo students were actually connected to each other.
@@ -293,7 +293,7 @@ const App = () => {
             To make the communication easier, the future students of SciencesPo created a group chat on Discord and shared the link on the Great Indian Dream Facebook group and on the “Sciences Po & India” Facebook group chat, which was created by the SciencesPo university itself in order to connect Indian students from Sciences Po. Note that at this point, the Discord group combined potential students from all campuses.
           </Bubble>
           <Bubble left>
-            However, Discord turned out to be very counterintuitive for new users. It had specific vocabulary and a focus on specific types of communities So students switched to WhatsApp, which was way easier to use.
+            However, Discord turned out to be very counterintuitive for new users. It had specific vocabulary and a focus on specific types of communities. So students switched to WhatsApp, which was way easier to use.
           </Bubble>
           <Bubble>
             But, the WhatsApp group chat soon reached its maximum number of members. So, the students managing the chat decided to create separate group chats for each campus. This is how each campus came to host a separate WhatsApp group chat.
@@ -311,7 +311,7 @@ const App = () => {
             Although it was the Indian students that initiated this university-wide shift, @painauchocolatine believes that the primary reason for the change had nothing to do with their national adoption of WhatsApp.
           </Bubble>
           <Bubble>
-            Indeed, as previously underlined, while India is the country in which WhatsApp is the most popular in, the use of WhatsApp is more widespread globally. Moreover, WhatsApp was already one of the dominant platforms among Sciences Po Le Havre students. As the data shows, nearly half of the respondents already had WhatsApp before entering SciencesPo, a value that is almost double that of Messenger.
+            Indeed, as previously underlined, while India is the country in which WhatsApp is the most popular in, the use of WhatsApp is more widespread globally. Moreover, WhatsApp was already the dominant platform amongst Sciences Po Le Havre students. As the data shows, nearly half of the respondents already had WhatsApp before entering SciencesPo, a value that is almost double that of Messenger.
           </Bubble>
 
           <Post
@@ -333,13 +333,13 @@ const App = () => {
           <Bubble left>
             Thus, the change of platform from Messenger to WhatsApp was institutionalized by BDE.
           </Bubble>
-          <Bubble left>
+          <Bubble>
             Since there has been a switch from Messenger to WhatsApp, one can expect there to be a shift from Facebook to WhatsApp as well.
           </Bubble>
-          <Bubble left>
+          <Bubble>
             However, this did not happen. In fact, to this day, Facebook is still actively used by the student community of Sciences Po Le Havre.
           </Bubble>
-          <Bubble>
+          <Bubble left>
             Then, why are students still using Facebook?
           </Bubble>
           <Bubble>
@@ -364,7 +364,7 @@ const App = () => {
           <Heading id='4'>Discussions Within Platforms</Heading>
           <Subheading id='0'>Topic Segregation</Subheading>
           <Bubble>
-            Respondents on the survey displayed significant discretion in choosing what type of topic to discuss, depending on the topic.
+            Respondents on the survey displayed significant discretion in choosing what type of topic to discuss, depending on the platform.
           </Bubble>
           <Bubble>
             For example, 88% answered that to ask the classroom number that their next course takes place in, they would use WhatsApp.
@@ -419,7 +419,7 @@ const App = () => {
             61% of all respondents considered that there was a “vital academic activity that was mainly managed on WhatsApp”.
           </Bubble>
           <Bubble left>
-            In fact, one of the interviewees, @darkshadow62617, recalls that his classmates organized themselves on WhatsApp for one of his classes, stating “I just needed to install it whether I wanted or not”.
+            In fact, one of the interviewees, @darkshadow62617, recalls that his classmates organized themselves on WhatsApp for a groupwork in one of his classes, stating “I just needed to install it whether I wanted or not”.
           </Bubble>
           <Bubble>
             <b>The second insight from the literature review was that connections through digital platforms assisted in students’ academic performance.</b>
@@ -443,7 +443,7 @@ const App = () => {
             Thus, students have decided to behave differently depending on the platforms not based on their individual understanding of the platforms, but because of the tradition formed in the small-scale society of the digital student community.
           </Bubble>
           <Bubble>
-            However, this selective tendency of the individuals is by no means small. Regarding all of the topics we have surveyed, only 4% answered that they did not have any preference for which platform to use. In other words, in the overwhelming majority of the cases, students had a preference in mind for which topic to talk about is appropriate on what platform.
+            This selective tendency of the individuals is by no means small. Regarding the topics we have surveyed, only 4% answered that they did not have any preference for which platform to use. In other words, in the overwhelming majority of the cases, students had a preference in mind for which topic to talk about is appropriate on what platform.
           </Bubble>
 
           <Heading id='5'>Conclusion</Heading>
