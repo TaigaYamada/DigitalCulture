@@ -6,6 +6,17 @@ import Post from './Post';
 import Heading from './Heading';
 import Subheading from './Subheading';
 
+// Graph imports
+import graph4_1 from '../../img/Top countries Facebook users.jpg';
+import graph4_2 from '../../img/Top countries WhatsApp users.jpg';
+import graph4_3 from '../../img/Top instant message apps in the world.jpg';
+import graph4_4 from '../../img/Top 20 countries with most Snapchat users.jpg';
+import graph4_5 from '../../img/Evolution of the number of FB users according to age in France.jpg';
+import graph4_6 from '../../img/Ratio of people who had platform before scpo.jpg';
+import graph5_1 from '../../img/Asking for classroom number.jpg';
+import graph5_2 from '../../img/Passing apart to other students.jpg';
+import graph5_3 from '../../img/Planning a session with asso.jpg';
+
 // Component imports
 import 'simplebar/dist/simplebar.min.css';
 
@@ -219,31 +230,31 @@ const App = () => {
           </Bubble>
 
           <Post
-            title='India is the country with the most users of Facebook in the world'
-            src=''
+            title='India is has the most Facebook users in the world'
+            src={graph4_1}
             desc='Top 10 countries with the most Facebook users, in millions. Source:Topic: Facebook. (2021, February 5). Statista. https://www.statista.com/topics/751/facebook.'
           />
           <Post
-            title='India is also the country with the most WhatsApp users in the world'
-            src=''
+            title='India is has the most WhatsApp users in the world'
+            src={graph4_2}
             desc='Top 10 countries with the most WhatsApp users, in millions. Source: Dean, B. (2021). SEO Training and Link Building Strategies – Backlinko. https://backlinko.com/whatsapp-users.'
           />
 
           <Post
-            title='WhatsApp is also the most popular instant messaging app in the world'
-            src=''
+            title='WhatsApp is the most popular instant messaging app in the world'
+            src={graph4_3}
             desc='The most used instant messaging apps in the world, in millions of users. Source: Most popular messaging apps. (2021, April 20). Statista. https://www.statista.com/statistics/258749/most-popular-global-mobile-messenger-apps/.'
           />
 
           <Post
             title='The United States has the most Snapchat users in the world'
-            src=''
+            src={graph4_4}
             desc='Top 20 countries with the most users of Snapchat in the world, in million. Source: Countries with most Snapchat users 2021. (2021, July 21). Statista. https://www.statista.com/statistics/315405/snapchat-user-region-distribution/.'
           />
 
           <Post
-            title='Age influences the use of Facebook'
-            src=''
+            title='Younger generations are moving away from Facebook'
+            src={graph4_5}
             desc='Evolution of the share of Facebook users according to age in France. Source: Asselin, C. (2021). Facebook Les chiffres essentiels en 2021 en France et dans Le monde. Social Media Listening and Analytics Blog - Digimind Blog. https://blog.digimind.com/fr/agences/facebook-chiffres-essentiels.'
           />
 
@@ -304,9 +315,8 @@ const App = () => {
           </Bubble>
 
           <Post
-            title='WhatsApp is the discussion platform that was the mostly used by students before getting into Sciences Po'
-            src=''
-            desc=''
+            title='WhatsApp was mostly commonly used by students before getting into Sciences Po'
+            src={graph4_6}
           />
           <Bubble>
             To summarize, Indian students were uniquely positioned to initiate the switch from Messenger to WhatsApp. They were connected with each other through the ''The Great Indian Dream'' group when others were not. Additionally, the early announcement of Indian admission results allowed the students to act before a Messenger group by BDE was set up.
@@ -360,25 +370,22 @@ const App = () => {
             For example, 88% answered that to ask the classroom number that their next course takes place in, they would use WhatsApp.
           </Bubble>
           <Post
-            title=' Majority of students would use WhatsApp to ask for a classroom’s number'
-            src=''
-            desc='Small text to explain the image'
+            title='Students use WhatsApp to ask for a classroom number'
+            src={graph5_1}
           />
           <Bubble left>
             On the other hand, to discuss a topic regarding housing, 58% preferred Facebook and only 26% responded that they would use WhatsApp.
           </Bubble>
           <Post
-            title='Students prefer using Facebook to announce that they want to pass on their apartment to other students'
-            src=''
-            desc=''
+            title='Students use Facebook to announce that they want to pass on their apartment to other students'
+            src={graph5_2}
           />
           <Bubble>
             Other topics saw more divided views, like in the case of student associations related communication. 47% preferred Facebook while 41% advocated for WhatsApp.
           </Bubble>
           <Post
-            title='Respondents are divided between choosing between WhatsApp or Facebook when planning a session with an association'
-            src=''
-            desc=''
+            title='Respondents are divided between WhatsApp or Facebook when planning a session in a student association'
+            src={graph5_3}
           />
           <Subheading id='0'>Why students separate the topics</Subheading>
           <Bubble>

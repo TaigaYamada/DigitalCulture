@@ -25,10 +25,12 @@
 
   & div{
     width: 100%;
-    padding-top: 75%;
+    padding-top: 60%;
 
-    background-color: config.$color-bg-500;
-    background-size: cover;
+    background-color: config.$color-post;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
   }
   & p {
     padding: 1rem 2rem;
