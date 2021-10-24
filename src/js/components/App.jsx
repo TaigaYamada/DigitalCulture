@@ -12,10 +12,10 @@ import graph4_2 from '../../img/Top countries WhatsApp users.jpg';
 import graph4_3 from '../../img/Top instant message apps in the world.jpg';
 import graph4_4 from '../../img/Top 20 countries with most Snapchat users.jpg';
 import graph4_5 from '../../img/Evolution of the number of FB users according to age in France.jpg';
-import graph4_6 from '../../img/Ratio of people who had platform before scpo.jpg';
-import graph5_1 from '../../img/Asking for classroom number.jpg';
-import graph5_2 from '../../img/Passing apart to other students.jpg';
-import graph5_3 from '../../img/Planning a session with asso.jpg';
+import graph4_6 from '../../img/Platform before scpo.jpg';
+import graph5_1 from '../../img/Pie Classroom.jpg';
+import graph5_2 from '../../img/Pie Apart.jpg';
+import graph5_3 from '../../img/Pie Asso.jpg';
 
 // Component imports
 import 'simplebar/dist/simplebar.min.css';
@@ -241,9 +241,8 @@ const App = () => {
           <Post
             title='India has the most WhatsApp users in the world'
             src={graph4_2}
-            desc='Top 10 countries with the most WhatsApp users, in millions. Source: Dean, B. (2021). SEO Training and Link Building Strategies – Backlinko. https://backlinko.com/whatsapp-users.'
+            desc='Top 10 countries with the most Facebook users, in millions. Source:Topic: Facebook. (2021, February 5). Statista. https://www.statista.com/topics/751/facebook.'
           />
-
           <Post
             title='WhatsApp is the most popular instant messaging app in the world'
             src={graph4_3}
