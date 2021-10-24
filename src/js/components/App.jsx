@@ -231,30 +231,30 @@ const App = () => {
 
           <Post
             title='India is has the most Facebook users in the world'
-            src={graph4_1}
+            src={}
             desc='Top 10 countries with the most Facebook users, in millions. Source:Topic: Facebook. (2021, February 5). Statista. https://www.statista.com/topics/751/facebook.'
           />
           <Post
             title='India is has the most WhatsApp users in the world'
-            src={graph4_2}
+            src={}
             desc='Top 10 countries with the most WhatsApp users, in millions. Source: Dean, B. (2021). SEO Training and Link Building Strategies – Backlinko. https://backlinko.com/whatsapp-users.'
           />
 
           <Post
             title='WhatsApp is the most popular instant messaging app in the world'
-            src={graph4_3}
+            src={}
             desc='The most used instant messaging apps in the world, in millions of users. Source: Most popular messaging apps. (2021, April 20). Statista. https://www.statista.com/statistics/258749/most-popular-global-mobile-messenger-apps/.'
           />
 
           <Post
             title='The United States has the most Snapchat users in the world'
-            src={graph4_4}
+            src={}
             desc='Top 20 countries with the most users of Snapchat in the world, in million. Source: Countries with most Snapchat users 2021. (2021, July 21). Statista. https://www.statista.com/statistics/315405/snapchat-user-region-distribution/.'
           />
 
           <Post
             title='Younger generations are moving away from Facebook'
-            src={graph4_5}
+            src={}
             desc='Evolution of the share of Facebook users according to age in France. Source: Asselin, C. (2021). Facebook Les chiffres essentiels en 2021 en France et dans Le monde. Social Media Listening and Analytics Blog - Digimind Blog. https://blog.digimind.com/fr/agences/facebook-chiffres-essentiels.'
           />
 
@@ -316,7 +316,7 @@ const App = () => {
 
           <Post
             title='WhatsApp was mostly commonly used by students before getting into Sciences Po'
-            src={graph4_6}
+            src={}
           />
           <Bubble>
             To summarize, Indian students were uniquely positioned to initiate the switch from Messenger to WhatsApp. They were connected with each other through the ''The Great Indian Dream'' group when others were not. Additionally, the early announcement of Indian admission results allowed the students to act before a Messenger group by BDE was set up.
@@ -371,21 +371,21 @@ const App = () => {
           </Bubble>
           <Post
             title='Students use WhatsApp to ask for a classroom number'
-            src={graph5_1}
+            src={}
           />
           <Bubble left>
             On the other hand, to discuss a topic regarding housing, 58% preferred Facebook and only 26% responded that they would use WhatsApp.
           </Bubble>
           <Post
             title='Students use Facebook to announce that they want to pass on their apartment to other students'
-            src={graph5_2}
+            src={}
           />
           <Bubble>
             Other topics saw more divided views, like in the case of student associations related communication. 47% preferred Facebook while 41% advocated for WhatsApp.
           </Bubble>
           <Post
             title='Respondents are divided between WhatsApp or Facebook when planning a session in a student association'
-            src={graph5_3}
+            src={}
           />
           <Subheading id='0'>Why students separate the topics</Subheading>
           <Bubble>
