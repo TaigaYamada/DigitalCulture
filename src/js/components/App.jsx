@@ -225,108 +225,108 @@ const App = () => {
           <Heading id='3'>Platform Choice</Heading>
           <Subheading id='0'>Sciences Po student community on WhatsApp and Facebook</Subheading>
           <Bubble>
-          Communication within the student community of Sciences Po Le Havre takes place on two main platforms: WhatsApp and Facebook. 
+            Communication within the student community of Sciences Po Le Havre takes place on two main platforms: WhatsApp and Facebook.
           </Bubble>
           <Bubble>
-          As of October 2021, the WhatsApp group chat for second year students has 161 members. The group chat is also constituted of a few third-year students, hence the number of members for this year’s group chat exceeds the number of students in second year. 
+            As of October 2021, the WhatsApp group chat for second year students has 161 members. The group chat is also constituted of a few third-year students, hence the number of members for this year’s group chat exceeds the number of students in second year.
           </Bubble>
           <Bubble>
-          Students also use Facebook groups to communicate with each other. Currently, the Facebook group for the 2021-2022 academic year has 292 members from the two cohorts.
+            Students also use Facebook groups to communicate with each other. Currently, the Facebook group for the 2021-2022 academic year has 292 members from the two cohorts.
           </Bubble>
           <Bubble>
-          Students themselves admit that WhatsApp and Facebook are the most common communication platforms at Sciences Po. 
+            Students themselves admit that WhatsApp and Facebook are the most common communication platforms at Sciences Po.
           </Bubble>
           <Bubble>
-          Indeed, about 96.49% of students surveyed answered that they currently had both a WhatsApp and a Facebook account. 
+            Indeed, about 96.49% of students surveyed answered that they currently had both a WhatsApp and a Facebook account.
           </Bubble>
           <Bubble left>
-          @fadingashesuwu went so far as to estimate that 95% of student communication happens on WhatsApp. The interviewee also mentions Facebook as one of the go-to platforms to communicate with the student community.
+            @fadingashesuwu went so far as to estimate that 95% of student communication happens on WhatsApp. The interviewee also mentions Facebook as one of the go-to platforms to communicate with the student community.
           </Bubble>
           <Bubble left>
-          @so2267 also highlights the same tendencies: “Almost all my student communication is done through WhatsApp, even with my student friends and sometimes on Instagram, but compared to WhatsApp that’s very little”. Thus, the communication in the digital student community of SciencesPo is heavily concentrated in WhatsApp and Facebook.
+            @so2267 also highlights the same tendencies: “Almost all my student communication is done through WhatsApp, even with my student friends and sometimes on Instagram, but compared to WhatsApp that’s very little”. Thus, the communication in the digital student community of SciencesPo is heavily concentrated in WhatsApp and Facebook.
           </Bubble>
 
           <Subheading id='0'>Landscape of platform choices</Subheading>
           <Bubble>
-          The above identified the location of digital student community in SciencesPo. 
+            The above identified the location of digital student community in SciencesPo.
           </Bubble>
           <Bubble left>
-          But before any further analysis, one must keep in mind what the available choices of platforms are.
+            But before any further analysis, one must keep in mind what the available choices of platforms are.
           </Bubble>
           <Bubble left>
-          What are we really referring to when discussing other social media platforms ? 
+            What are we really referring to when discussing other social media platforms ?
           </Bubble>
           <Bubble left>
-          What is the format of these applications ? 
+            What is the format of these applications ?
           </Bubble>
           <Bubble left>
-          How widely are they used in France ? 
+            How widely are they used in France ?
           </Bubble>
           <Bubble>
-          Among the other choices of platform available, we can distinguish between two kind of platforms: 
+            Among the other choices of platform available, we can distinguish between two kind of platforms:
           </Bubble>
           <Bubble>
-          Content-based platforms whose ultimate goals are more to enable people to expose their lives and share personal experiences through pictures, videos, and comments. 
+            Content-based platforms whose ultimate goals are more to enable people to expose their lives and share personal experiences through pictures, videos, and comments.
           </Bubble>
           <Bubble>
-          And Messaging softwares which first aim at enabling basic communication between people through texts, calls, video calls.
+            And Messaging softwares which first aim at enabling basic communication between people through texts, calls, video calls.
           </Bubble>
           <Bubble left>
-          First, let’s  turn to social media platforms.
+            First, let’s  turn to social media platforms.
           </Bubble>
           <Bubble left>
-          The Snapchat format is a bit different from other social media platforms. Users can only post “stories”, pictures or short videos which stay online for 24h, and then disappear definitively. 
+            The Snapchat format is a bit different from other social media platforms. Users can only post “stories”, pictures or short videos which stay online for 24h, and then disappear definitively.
           </Bubble>
           <Bubble left>
-          On Instagram, users can post pictures which come with a comment section, like section, save section and also “stories” (pictures or short videos which stay online for 24h, and then disappear). Users can post long videos (“IGTV”) and short videos similar to Tiktok (“Reels”). 
+            On Instagram, users can post pictures which come with a comment section, like section, save section and also “stories” (pictures or short videos which stay online for 24h, and then disappear). Users can post long videos (“IGTV”) and short videos similar to Tiktok (“Reels”).
           </Bubble>
           <Bubble>
-          Let’s turn now to chat applications.
+            Let’s turn now to chat applications.
           </Bubble>
           <Bubble>
-          Messenger is an instant messaging software operated by Facebook that provides text and voice services allowing users to send multimedia messages such as text, pictures, animations, voice, and clips (and even make voice calls) to other users through a website or mobile device without paying extra.
+            Messenger is an instant messaging software operated by Facebook that provides text and voice services allowing users to send multimedia messages such as text, pictures, animations, voice, and clips (and even make voice calls) to other users through a website or mobile device without paying extra.
           </Bubble>
           <Bubble>
-          Originally developed as Facebook Chat in 2008, Messenger only became a dedicated website interface (Messenger.com), and separated the messaging functionality from the main Facebook app, allowing users to use the web interface or download one of the standalone apps. As it was originally part of the main Facebook application, Messenger is most closely integrated with Facebook.
+            Originally developed as Facebook Chat in 2008, Messenger only became a dedicated website interface (Messenger.com), and separated the messaging functionality from the main Facebook app, allowing users to use the web interface or download one of the standalone apps. As it was originally part of the main Facebook application, Messenger is most closely integrated with Facebook.
           </Bubble>
           <Bubble>
-          WhatsApp Messenger, or simply WhatsApp, is an American freeware, cross-platform centralized instant messaging (IM) and voice-over-IP (VoIP) service owned by Facebook. It allows users to send text messages and voice messages, make voice and video calls, and share images, documents, user locations, and other content. The service requires a cellular mobile telephone number to sign up.
+            WhatsApp Messenger, or simply WhatsApp, is an American freeware, cross-platform centralized instant messaging (IM) and voice-over-IP (VoIP) service owned by Facebook. It allows users to send text messages and voice messages, make voice and video calls, and share images, documents, user locations, and other content. The service requires a cellular mobile telephone number to sign up.
           </Bubble>
           <Bubble left>
-          WeChat is a Chinese multifunctional instant messaging, social media and mobile payment application developed by Tencent. It was first released in 2011 and became the world's largest standalone mobile app in 2018, with more than 1 billion active users per month.
+            WeChat is a Chinese multifunctional instant messaging, social media and mobile payment application developed by Tencent. It was first released in 2011 and became the world's largest standalone mobile app in 2018, with more than 1 billion active users per month.
           </Bubble>
           <Bubble left>
-          Line is a Japanese instant messaging app which has been integrated into Z Holdings (AKA Yahoo Japan) on March 2021. 
+            Line is a Japanese instant messaging app which has been integrated into Z Holdings (AKA Yahoo Japan) on March 2021.
           </Bubble>
           <Bubble left>
-          Discord is a VoIP, instant messaging and digital distribution platform. Users communicate with voice calls, video calls, text messaging, media and files in private chats or as part of communities called "servers". Discord is particularly popular among the ‘gamers community’. 
+            Discord is a VoIP, instant messaging and digital distribution platform. Users communicate with voice calls, video calls, text messaging, media and files in private chats or as part of communities called "servers". Discord is particularly popular among the ‘gamers community’.
           </Bubble>
           <Bubble left>
-          The 4 platforms mentioned above are offering almost exactly the same services. The three main formats highlighted are “Talk”(chat), “Audio call”, “Video call”. 
+            The 4 platforms mentioned above are offering almost exactly the same services. The three main formats highlighted are “Talk”(chat), “Audio call”, “Video call”.
           </Bubble>
           <Bubble>
-          Now that each of the potential options are known, the question is their popularity in France.
+            Now that each of the potential options are known, the question is their popularity in France.
           </Bubble>
           <Bubble>
-          In France, WeChat and Line are scarcely used. 
+            In France, WeChat and Line are scarcely used.
           </Bubble>
           <Bubble>
-          The main users of WeChat remain Chinese but as China owns the largest population in the world, WeChat is the third most widely used instant messaging in the world. 
+            The main users of WeChat remain Chinese but as China owns the largest population in the world, WeChat is the third most widely used instant messaging in the world.
           </Bubble>
           <Bubble>
-          Although the adoption of WeChat remains limited in France, many large shopping malls, including, for example, Galeries Lafayette, Spring Department Store, Sephora and Chateau Versailles, have opened WeChat payments to facilitate Chinese tourists' spending. 
+            Although the adoption of WeChat remains limited in France, many large shopping malls, including, for example, Galeries Lafayette, Spring Department Store, Sephora and Chateau Versailles, have opened WeChat payments to facilitate Chinese tourists' spending.
           </Bubble>
           <Bubble>
-          Like WeChat, the utilisation of Line remains concentrated in Japan where Line claims itself to be a ‘Life infrastructure’. As a matter of fact, Keio Double Degree student groups mainly communicate on Line, both for intra- & inter-cohort communication. 
+            Like WeChat, the utilisation of Line remains concentrated in Japan where Line claims itself to be a ‘Life infrastructure’. As a matter of fact, Keio Double Degree student groups mainly communicate on Line, both for intra- & inter-cohort communication.
           </Bubble>
           <Bubble left>
-          More than 99% of Line users are located in Asia, making Line almost non-existent anywhere else.
+            More than 99% of Line users are located in Asia, making Line almost non-existent anywhere else.
           </Bubble>
           <Bubble left>
-          In France, 38 million people are using Facebook, which is more than half of the total population. 
+            In France, 38 million people are using Facebook, which is more than half of the total population.
           </Bubble>
           <Bubble left>
-          However, France and Europe more generally are not the place where the Facebook platform is the most widely used. India is home to the largest group of Facebook users, followed by the United States.
+            However, France and Europe more generally are not the place where the Facebook platform is the most widely used. India is home to the largest group of Facebook users, followed by the United States.
           </Bubble>
           <Post
             title='India has the most Facebook users in the world'
@@ -334,7 +334,7 @@ const App = () => {
             desc='Top 10 countries with the most Facebook users, in millions. Source:Topic: Facebook. (2021, February 5). Statista. https://www.statista.com/topics/751/facebook.'
           />
           <Bubble>
-          India is also where WhatsApp is most popular. In fact, the number of WhatsApp users in India triple that of Brazil, which came in second.
+            India is also where WhatsApp is most popular. In fact, the number of WhatsApp users in India triple that of Brazil, which came in second.
           </Bubble>
           <Post
             title='India has the most WhatsApp users in the world'
@@ -347,10 +347,10 @@ const App = () => {
             desc='The most used instant messaging apps in the world, in millions of users. Source: Most popular messaging apps. (2021, April 20). Statista. https://www.statista.com/statistics/258749/most-popular-global-mobile-messenger-apps/.'
           />
           <Bubble>
-          Moreover, WhatsApp is the most popular discussion platform in the world, with about 2,000 million users worldwide.
+            Moreover, WhatsApp is the most popular discussion platform in the world, with about 2,000 million users worldwide.
           </Bubble>
           <Bubble left>
-          Instagram garners 21 million monthly users in France which is almost equivalent to the number of Snapchat users in France, i.e. 23,4 million. However, the main difference is that while France is the 12th country in the number of Instagram users, France is the 3rd country with regards to the number of Snapchat users. 
+            Instagram garners 21 million monthly users in France which is almost equivalent to the number of Snapchat users in France, i.e. 23,4 million. However, the main difference is that while France is the 12th country in the number of Instagram users, France is the 3rd country with regards to the number of Snapchat users.
           </Bubble>
           <Post
             title='The United States has the most Snapchat users in the world'
@@ -358,10 +358,10 @@ const App = () => {
             desc='Top 20 countries with the most users of Snapchat in the world, in million. Source: Countries with most Snapchat users 2021. (2021, July 21). Statista. https://www.statista.com/statistics/315405/snapchat-user-region-distribution/.'
           />
           <Bubble>
-          Keep in mind that Facebook owns most of the platforms mentioned above, namely Instagram, Messenger, WhatsApp. 
+            Keep in mind that Facebook owns most of the platforms mentioned above, namely Instagram, Messenger, WhatsApp.
           </Bubble>
           <Bubble left>
-          An additional factor for explaining why certain platforms are preferred over others may be the age of the users. Indeed, depending on how old they are, people are more or less likely to use certain social media platforms. Recently, it has been proved that Facebook is less and less used among the younger generation yet remains widely popular among older people. 
+            An additional factor for explaining why certain platforms are preferred over others may be the age of the users. Indeed, depending on how old they are, people are more or less likely to use certain social media platforms. Recently, it has been proved that Facebook is less and less used among the younger generation yet remains widely popular among older people.
           </Bubble>
           <Post
             title='Younger generations are moving away from Facebook'
@@ -369,13 +369,13 @@ const App = () => {
             desc='Evolution of the share of Facebook users according to age in France. Source: Asselin, C. (2021). Facebook Les chiffres essentiels en 2021 en France et dans Le monde. Social Media Listening and Analytics Blog - Digimind Blog. https://blog.digimind.com/fr/agences/facebook-chiffres-essentiels.'
           />
           <Bubble>
-          Broader pattern emerges out of the above that the age and the nationality of the user are shaping their social media platforms preferences in the general society. 
+            Broader pattern emerges out of the above that the age and the nationality of the user are shaping their social media platforms preferences in the general society.
           </Bubble>
           <Bubble>
-          Does this pattern hold in the digital student community at Sciences Po?
+            Does this pattern hold in the digital student community at Sciences Po?
           </Bubble>
           <Bubble>
-          Especially of interest is how the student community chose between the chat apps because they are all very similar in feature. 
+            Especially of interest is how the student community chose between the chat apps because they are all very similar in feature.
           </Bubble>
 
           <Subheading id='0'>From Messenger to WhatsApp</Subheading>
