@@ -9,7 +9,7 @@ Access the website at:
 <https://taigayamada.github.io/DigitalCulture/>
 
 Authors:
-Cléa SCHMITT
-Quitterie MAGNIN
-Taiga YAMADA
+Cléa SCHMITT,
+Quitterie MAGNIN,
+Taiga YAMADA,
 Zhuofan ZU
